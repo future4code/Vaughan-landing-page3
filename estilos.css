@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #132235;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+header img {
+    width: 300px;
+}
+.container{
+    background-color: #f2f2f2;
+    height: 400px;
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container #redes{
+    display: flex;
+    padding: 0 10px;
+}
+.text_contact {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+    padding: 0 10px;
+}
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 1%;
+}
+
+.formulario img{
+    width: 20%;
+    padding: 0 5% 0 ;
+}
+
+form input, .caixa_texto{
+   width: 80%;
+}
+
+#redes img {
+    width: 27px;
+    margin: 4px;
+    display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .formulario{
+        margin: 5px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .formulario img {
+      width: 50%;
+      margin: 7px;
+      
+    }
+  }
