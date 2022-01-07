@@ -45,6 +45,7 @@ justify-content: center;
     }
 
 /*Rodapé*/
+
 .container{
     background-color: #F2F2F2;
     height: 300px;
@@ -85,11 +86,13 @@ form input, .caixa_texto{
     margin: 4px;
     display: flex;
 }
+
 #redes {
     background-color: #132235;
     color: #6CD9D2;
 }
 /*Quando a tela ficar do nas dimensões do Iphone 6/7/8 terá essas config */
+
 @media only screen and (max-width: 375px) {
     .formulario{
         margin: 5px;
@@ -101,7 +104,7 @@ form input, .caixa_texto{
       margin: 7px;
     }
     .container{
-        background-color: #F2F2F2;
+        background-color: #f2f2f2;
         height: 500px;
         display: grid;
         bottom: 0;
@@ -114,5 +117,4 @@ form input, .caixa_texto{
         width: 94%;
         height: 50px;
     }
-
   }
