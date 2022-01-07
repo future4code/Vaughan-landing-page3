@@ -1,50 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="F4Life é uma empresa focada em preparar moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação.">
-    <title>F4Life - A Moradia Universitária do Seu Futuro!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <title>Document</title>
 </head>
 
 <body>
-<header class="cabecalho">
-    <img class="logo-cabecalho" src="img/f4life (2).png" alt="Logo F4Life">
+    <header>
+        <img src="imagem/logo.jpg" alt="Logo da F4Life">
+      
+        <nav class="menu-cabecalho">
+          <a class="item-menu-cabecalho">Quem Somos</a>
+          <a class="item-menu-cabecalho">Contato</a>
+        </nav>
+    </header>
+  
+    <main class="conteudo">
+      <section class="secao-1">
 
-    <nav class="menu-cabecalho">
-        <a class="item-menu-cabecalho">Quem Somos</a>
-        <a class="item-menu-cabecalho">Contato</a>
-    </nav>
-</header>
+          <div class="conteudo-secao-1">
+              <h1 class="titulo-secao-1" >F4Life</h1>
+              <h2 class="subtitulo-secao-1" >A Moradia Universitária do Seu Futuro!</h2>
+              <button class="botao-secao-1">Conheça nossos produtos!</button>
+          </div>
+          <img class="img-secao-1" src="img/alunos.jpg" alt="Alunos">
 
-<main class="conteudo">
-    <section class="secao-1">
-        
-        <div class="conteudo-secao-1">
-            <h1 class="titulo-secao-1" >F4Life</h1>
-            <h2 class="subtitulo-secao-1" >A Moradia Universitária do Seu Futuro!</h2>
-            <button class="botao-secao-1">Conheça nossos produtos!</button>
-        </div>
-        <img class="img-secao-1" src="img/alunos.jpg" alt="Alunos">
+      </section>
 
-    </section>
 
-        
-    <section class="secao-2">
+      <section class="secao-2">
 
-        <h3 class="titulo-secao-2"><strong>O que a F4Life oferece?</strong></h3>
-        <p class="item-secao-2">1. Localização do empreendimento próximo a universidade (lugares seguros, com comércios ao redor, próximos das universidades).</p>
-        <p class="item-secao-2">2. Moradias com mobília, utensílios de cozinha e eletrodomésticos.</p>
-        <p class="item-secao-2">3. O melhor custo benefício para o seu bolso.</p>
+          <h3 class="titulo-secao-2"><strong>O que a F4Life oferece?</strong></h3>
+          <p class="item-secao-2">1. Localização do empreendimento próximo a universidade (lugares seguros, com comércios ao redor, próximos das universidades).</p>
+          <p class="item-secao-2">2. Moradias com mobília, utensílios de cozinha e eletrodomésticos.</p>
+          <p class="item-secao-2">3. O melhor custo benefício para o seu bolso.</p>
 
-    </section>
-</main>
-
+      </section>
+    </main>
+  
     <footer>
-
+        <div class="container">
+            <div class="text_contact">
+                <h2>Contato</h2>
+            </div>
+            <div class="formulario">
+                <img id="imagem_mapa" src="imagem/mapa.jpg" alt="imagem da localização no mapa">
+                <form>
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email">
+                    <textarea class="caixa_texto" id="subject" name="subject" placeholder="Escreva aqui sua mensagem.."
+                        style="height:160px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="redes">
+                <h3>Nossas redes sociais:</h3>
+                <a target="_blank" href="https://twitter.com/"><img id="imagem_twitter" src="imagem/twitter.jpg"
+                        alt="twitter"></a>
+                <a target="_blank" href="https://pt-br.facebook.com/"><img id="imagem_facebook"
+                        src="imagem/facebook.jpg" alt="facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img id="imagem_instagram"
+                        src="imagem/instagram.jpg" alt="instagram"></a>
+            </div>
+        </div>
     </footer>
 </body>
 
