@@ -3,7 +3,6 @@
     padding: 0;
 }
 /*Cabeçalho*/
-
 header {
     background-color: #132235;
     height: 90px;
@@ -11,22 +10,50 @@ header {
     justify-content: center;
 }
 /*Imagem do cabeçalho*/
-
 header img {
     width: 300px;
 }
 
+/*moradiacompartilhada*/
+#imagemdemoradiac {
+width: 300px;
+display: grid;
+ 
+
+}   
+/*texto moradia compartilhada*/
+.secao-3 {
+    background-color: #F2F2F2;
+height:200px;
+
+}
+/*imagem moradia compatilhada*/
+#imc {
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/*imagem flat*/
+#iflat {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
 /*Rodapé*/
 
 .container{
-    background-color: #f2f2f2;
-    height: 400px;
+    background-color: #F2F2F2;
+    height: 300px;
     display: grid;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
-
 .text_contact {
     text-align: center;
     display: flex;
@@ -49,9 +76,7 @@ form input, .caixa_texto{
     width: 20%;
     padding: 0 5% 0 ;
 }
-
 /*Configuração das redes sociais*/
-
 .container #redes{
     display: flex;
     padding: 0 10px;
@@ -69,7 +94,6 @@ form input, .caixa_texto{
 /*Quando a tela ficar do nas dimensões do Iphone 6/7/8 terá essas config */
 
 @media only screen and (max-width: 375px) {
-
     .formulario{
         margin: 5px;
         justify-content: center;
@@ -78,7 +102,6 @@ form input, .caixa_texto{
     .formulario img {
       width: 50%;
       margin: 7px;
-      
     }
     .container{
         background-color: #f2f2f2;
