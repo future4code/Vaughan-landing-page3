@@ -1,0 +1,22 @@
+
+/*Configuração das redes sociais*/
+
+.container #redes{
+    display: flex;
+}
+#redes img {
+    width: 50px;
+    margin: 4px;
+    display: flex;
+}
+
+#redes {
+    background: #132235;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
