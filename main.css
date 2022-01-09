@@ -291,6 +291,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 #iflat{
     display: flex;
@@ -298,9 +299,9 @@ html {
     justify-content: center;
 }
 #imagemdemoradiac{
-    width: 40%;
+    width: 100%;
 }
 #flat {
-    width: 40%;
+    width: 100%;
 
 }
