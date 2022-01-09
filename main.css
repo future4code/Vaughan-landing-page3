@@ -303,4 +303,15 @@ html {
     .conteudo-quem-somos {
         font-size: 33px;
     }
+    
+    .logo-cabecalho {
+        height: 200px;
+    }
+    .item-menu-cabecalho {
+        font-size:40px; 
+        line-height: 45px;
+        height: 40px;
+
+    
+    }
 }
