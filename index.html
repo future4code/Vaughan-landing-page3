@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Document</title>
+    <meta name="description" content="F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. 
+    A empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação.">
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <title>F4Life - A Moradia Universitária do Seu Futuro!</title>
 </head>
 
 <body>
+
     <header class="cabecalho">
         <img class="logo-cabecalho" src="img/f4life (2).png" alt="Logo da F4Life">
 
         <nav class="menu-cabecalho">
-            <a class="item-menu-cabecalho" ahf="">Quem Somos</a>
-            <a class="item-menu-cabecalho">Contato</a>
+            <a href="#quem-somos" class="item-menu-cabecalho" ahf="">Quem Somos</a>
+            <a href="#contato" class="item-menu-cabecalho">Contato</a>
         </nav>
     </header>
 
@@ -25,7 +29,7 @@
             <div class="conteudo-secao-1">
                 <h1 class="titulo-secao-1">F4Life</h1>
                 <h2 class="subtitulo-secao-1">A Moradia Universitária do Seu Futuro!</h2>
-                <button class="botao-secao-1">PRODUTOS</button>
+                <a id="botao"  href="produtos.html" lang="pt">PRODUTOS</a>
             </div>
             <img class="img-secao-1" src="img/alunos.jpg" alt="Alunos">
 
@@ -41,7 +45,7 @@
 
         </section>
 
-        <section class="quem-somos">
+        <section id="quem-somos" class="quem-somos">
 
             <h3 class="titulo-quem-somos"><strong>Quem Somos?</strong></h3>
             <p class="conteudo-quem-somos">A F4LIFE, fundada em 2015 por suas diretoras Grazielle Maria de Carvalho
@@ -63,8 +67,10 @@
         </section>
 
         <section class="quem-somos2">
-
-            <h4 class="subtitulo-quem-somos2"><strong>Visão</strong></h4>
+            
+            <div class="visao">
+            <img class="img-visao" src="img/aluna1.png" alt="Aluna">   
+            <h4 class="subtitulo-quem-somos2"><strong>VISÃO</strong></h4>
             <p class="conteudo-subtitulo2">Formar corretores de sucesso que trabalhem com a mesma linha de raciocínio de
                 seus diretores, com respeito e com
                 valores éticos e morais. Chegar ao topo sendo reconhecida como a melhor empresa de aluguéis de
@@ -72,47 +78,60 @@
                 positivas em locações de imóveis, quer sejam no formato de Moradia Compartilhada ou Flat. Queremos ainda
                 que o serviço de administração e
                 divulgação seja capaz de acompanhar a evolução desse ramo no mercado.</p>
-            <h4 class="subtitulo-quem-somos2"><strong>Missão</strong></h4>
+            </div>
+
+            <div class="missao">
+            <img class="img-missao" src="img/aluna2.png" alt="Aluna"> 
+            <h4 class="subtitulo-quem-somos2"><strong>MISSÃO</strong></h4>
             <p class="conteudo-subtitulo2">Prestar uma assessoria diferenciada aos estudantes locatários, com ética,
                 respeito e transparência. Em crescimento
                 constante, buscar inovações para que a qualidade dos serviços prestados prevaleça, superando as
                 expectativas de seus clientes. </p>
-            <h4 class="subtitulo-quem-somos2"><strong>Valores</strong></h4>
+            </div>
+
+            <div class="valores">
+            <img class="img-valores" src="img/aluno3-removebg-preview.png" alt="Aluno"> 
+            <h4 class="subtitulo-quem-somos2"><strong>VALORES</strong></h4>
             <p class="conteudo-subtitulo2">Valorizar os profissionais, os parceiros, os clientes desta empresa,
                 priorizando o trabalho em equipe, o foco nos
                 resultados, a inovação e a atitude positiva. </p>
-        </section>
+            </div>
+            </section>
 
+            <div id="contato" class="container">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467689.79721532145!2d-46.87549475294079!3d-23.682160383137642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1641745936107!5m2!1spt-BR!2sbr" width="100%" height="alto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="formulario">
+                    <h1>Contato</h1>
+                    <form>
+                        <label for="name">Nome:</label><br>
+                        <input type="text" class="formulario-texto" placeholder="Digite seu nome"><br>
+                        <label for="tel">Telefone:</label><br>
+                        <input type="tel" class="formulario-texto" placeholder="(xx) x xxxx-xxxx"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" class="formulario-texto" placeholder="Digite seu email">
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea class="caixa_texto" id="subject" name="subject" placeholder="Escreva aqui sua mensagem..."
+                            style="height:160px"></textarea>
+                        <input type="submit" value="ENVIAR" class="botao">
+                    </form>
+                </div>
+            </div>
     </main>
 
     <footer>
-        <div class="container">
-            <div class="text_contact">
-                <h2>Contato</h2>
-            </div>
-            <div class="formulario">
-                <img id="imagem_mapa" src="imagem/mapa.jpg" alt="imagem da localização no mapa">
-                <form>
-                    <label for="name">Nome:</label><br>
-                    <input type="text" id="name"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email">
-                    <textarea class="caixa_texto" id="subject" name="subject" placeholder="Escreva aqui sua mensagem.."
-                        style="height:160px"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
             <div id="redes">
                 <h3>Nossas redes sociais:</h3>
                 <a target="_blank" href="https://twitter.com/"><img id="imagem_twitter" src="img/twiter.png"
                         alt="twitter"></a>
-                <a target="_blank" href="https://pt-br.facebook.com/"><img id="imagem_facebook"
-                        src="img/face.png" alt="facebook"></a>
-                <a target="_blank" href="https://www.instagram.com/"><img id="imagem_instagram"
-                        src="img/insta.png" alt="instagram"></a>
+                <a target="_blank" href="https://pt-br.facebook.com/"><img id="imagem_facebook" src="img/facebook.png"
+                        alt="facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img id="imagem_instagram" src="img/instagram.png"
+                        alt="instagram"></a>
             </div>
-        </div>
     </footer>
+
 </body>
 
 </html>
